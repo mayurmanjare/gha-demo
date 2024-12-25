@@ -4,6 +4,6 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      -name: building app
-       run: echo "hello mayur"
+      - name: building app
+        run: echo "hello mayur"
   

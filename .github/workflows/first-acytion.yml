@@ -1,0 +1,8 @@
+name: My First workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+      - name: building app
+        run: echo "hello mayur"
+  
